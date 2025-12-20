@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-with open("C:\\Car_Price_Prediction\\car_price_pipeline.pkl", "rb") as f:
+with open("car_price_pipeline.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("🚗 Car Price Prediction System")
