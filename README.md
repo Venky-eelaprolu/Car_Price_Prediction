@@ -46,7 +46,9 @@ Drive wheels	FWD, RWD, AWD
 Airbags	Safety feature
 Car_Age	Age of the vehicle
 Price	Target variable
+
 ⚙️ Project Workflow
+
 1️⃣ Data Preprocessing
 
 Handling missing values
@@ -96,7 +98,9 @@ Gradient Boosting	Boosting algorithm
 XGBoost	Advanced gradient boosting
 Voting Ensemble	Combination of multiple models
 Stacking Ensemble	Meta-model learning
+
 📈 Model Performance
+
 Algorithm	Test R² Score
 Gradient Boosting	0.79 (Best)
 XGBoost	0.78
@@ -108,6 +112,7 @@ KNN	0.72
 Decision Tree	0.65
 Linear / Ridge / Lasso	~0.30
 Elastic Net	~0.23
+
 🏆 Best Model
 
 The Gradient Boosting model achieved the highest accuracy with:
@@ -135,6 +140,7 @@ XGBoost
 Google Colab / Jupyter Notebook
 
 📂 Project Structure
+
 Car_Price_Prediction/
 │
 ├── Car_Price_Prediction.ipynb
@@ -142,11 +148,17 @@ Car_Price_Prediction/
 │   └── car_data.csv
 ├── README.md
 └── requirements.txt
+
 🚀 How to Run the Project
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/Venky-eelaprolu/Car_Price_Prediction.git
+
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
+
 3️⃣ Run the Notebook
 
 Open the notebook using:
