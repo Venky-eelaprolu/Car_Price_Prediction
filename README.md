@@ -1,5 +1,6 @@
 🚗 Car Price Prediction using Machine Learning
-📌 Project Overview
+
+Project Overview
 
 This project focuses on predicting the price of cars based on their features using Machine Learning algorithms. The model analyzes various attributes such as engine volume, mileage, fuel type, car age, and other specifications to estimate the car price.
 
