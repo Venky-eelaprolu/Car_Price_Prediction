@@ -1,35 +1,45 @@
-🚗 Car Price Prediction using Machine Learning
+**🚗 Car Price Prediction using Machine Learning**
 
-Project Overview
+**Project Overview**
 
 This project focuses on predicting the price of cars based on their features using Machine Learning algorithms. The model analyzes various attributes such as engine volume, mileage, fuel type, car age, and other specifications to estimate the car price.
 
 Car price prediction is a common regression problem in machine learning and helps buyers and sellers determine a fair market value for vehicles. Machine learning models can analyze historical data and identify patterns that influence pricing.
 
-🎯 Problem Statement
+**Problem Statement**
 
 The price of a car depends on many factors such as:
 
+Levy
+
 Manufacturer
 
-Model
+Category
+
+Leather interior
+
+Fuel type
 
 Engine volume
 
 Mileage
 
-Fuel type
+Cylinders
 
 Gearbox type
 
+Drive wheels
+
 Car age
 
-Safety features
+Turbo
+
+Airbags
 
 Manually estimating a car's price can be difficult.
 The objective of this project is to build machine learning models that accurately predict car prices based on these features.
 
-📊 Dataset
+**Dataset**
 
 The dataset contains information about different cars and their attributes.
 
@@ -47,9 +57,9 @@ Airbags	Safety feature
 Car_Age	Age of the vehicle
 Price	Target variable
 
-⚙️ Project Workflow
+**Project Workflow**
 
-1️⃣ Data Preprocessing
+**1. Data Preprocessing**
 
 Handling missing values
 
@@ -61,15 +71,15 @@ Feature engineering (Car Age, Turbo)
 
 Encoding categorical variables
 
-2️⃣ Feature Scaling
+**2. Feature Scaling**
 
 Continuous numerical features were scaled using RobustScaler to handle outliers.
 
-3️⃣ Model Training
+**3. Model Training**
 
 Several machine learning regression models were trained and evaluated.
 
-4️⃣ Model Evaluation
+**4. Model Evaluation**
 
 Models were evaluated using the following metrics:
 
@@ -81,7 +91,7 @@ MSE (Mean Squared Error)
 
 RMSE (Root Mean Squared Error)
 
-🤖 Machine Learning Models Used
+**5. Machine Learning Models Used**
 
 The following algorithms were implemented:
 
@@ -99,7 +109,7 @@ XGBoost	Advanced gradient boosting
 Voting Ensemble	Combination of multiple models
 Stacking Ensemble	Meta-model learning
 
-📈 Model Performance
+**Model Performance**
 
 Algorithm	Test R² Score
 Gradient Boosting	0.79 (Best)
@@ -113,7 +123,7 @@ Decision Tree	0.65
 Linear / Ridge / Lasso	~0.30
 Elastic Net	~0.23
 
-🏆 Best Model
+**Best Model**
 
 The Gradient Boosting model achieved the highest accuracy with:
 
@@ -121,7 +131,7 @@ R² Score ≈ 0.79
 
 Lowest RMSE
 
-🧰 Technologies Used
+**Technologies Used**
 
 Python
 
@@ -139,27 +149,33 @@ XGBoost
 
 Google Colab / Jupyter Notebook
 
-📂 Project Structure
+**Project Structure**
 
 Car_Price_Prediction/
+
 │
+
 ├── Car_Price_Prediction.ipynb
+
 ├── dataset/
+
 │   └── car_data.csv
+
 ├── README.md
+
 └── requirements.txt
 
-🚀 How to Run the Project
+**How to Run the Project**
 
-1️⃣ Clone the Repository
+**1. Clone the Repository**
 
 git clone https://github.com/Venky-eelaprolu/Car_Price_Prediction.git
 
-2️⃣ Install Dependencies
+**2️. Install Dependencies**
 
 pip install -r requirements.txt
 
-3️⃣ Run the Notebook
+**3️. Run the Notebook**
 
 Open the notebook using:
 
@@ -169,7 +185,7 @@ Google Colab
 
 Run all cells sequentially.
 
-📌 Key Insights
+**Key Insights**
 
 Ensemble models performed better than linear models.
 
@@ -177,7 +193,7 @@ Boosting algorithms gave the highest accuracy.
 
 Gradient Boosting achieved the best performance for this dataset.
 
-🔮 Future Improvements
+**Future Improvements**
 
 Hyperparameter tuning for better accuracy
 
@@ -187,9 +203,9 @@ Deploy model using Flask / Streamlit
 
 Build a web application for price prediction
 
-👨‍💻 Author
+**Author**
 
 Venky Eelaprolu
 
-GitHub:
+**GitHub:**
 https://github.com/Venky-eelaprolu
